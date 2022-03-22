@@ -7,9 +7,6 @@ const config: AWS = {
 	frameworkVersion: '3',
 	plugins: [
 		'serverless-esbuild',
-		'serverless-prune-plugin',
-		'serverless-domain-manager',
-		'serverless-offline',
 	],
 	provider: {
 		name: 'aws',

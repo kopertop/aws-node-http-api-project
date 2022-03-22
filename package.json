@@ -10,15 +10,12 @@
 	"author": "Chris Moyer <cmoyer@cannabiz.media>",
 	"license": "UNLICENSED",
 	"devDependencies": {
-		"@types/node": "^12.20.23",
 		"@serverless/typescript": "^3.8.0",
+		"@types/node": "^12.20.23",
 		"aws-sdk": "^2.1098.0",
 		"esbuild": "^0.14.27",
 		"serverless": "^3.8.0",
-		"serverless-domain-manager": "^6.0.2",
 		"serverless-esbuild": "^1.26.1",
-		"serverless-offline": "^8.5.0",
-		"serverless-prune-plugin": "^2.0.1",
 		"ts-node": "^8.10.2",
 		"typescript": "^3.7.7"
 	},
