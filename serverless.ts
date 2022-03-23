@@ -25,6 +25,8 @@ const config: AWS = {
 	},
 	custom: {
 		esbuild: {
+			platform: 'node',
+			target: 'node14',
 			external: [
 				'serverless-http',
 			],
