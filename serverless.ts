@@ -23,6 +23,13 @@ const config: AWS = {
 			}],
 		},
 	},
+	custom: {
+		esbuild: {
+			external: [
+				'serverless-http',
+			],
+		},
+	},
 };
 
 module.exports = config;
